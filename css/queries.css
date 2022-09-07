@@ -227,6 +227,11 @@
     .hero{
         padding: 0 3.2rem;
     }
+    .delivered-imgs img {
+        max-width: 2.4rem;
+        max-height: 2.4rem;
+        margin-right: -1.2rem;
+    }
 
     .section-testimonials{
         grid-template-columns: 1fr;
