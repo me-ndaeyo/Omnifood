@@ -31,7 +31,7 @@ const obs = new IntersectionObserver(function(entries){
   // In the viewport
   root: null,
   threshold: 0,
-  rootMargin: '-250px',
+  rootMargin: '-150px',
 })
 obs.observe(sectionHero);
 

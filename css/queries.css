@@ -179,8 +179,19 @@
         grid-template-columns: repeat(6, 1fr);
     }
 
+    .footer-heading {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
     .address-col, .logo-col{
         grid-column: span 3;
+    }
+
+    .footer a:link,
+    .footer a:visited,
+    .contacts{
+        font-size: 1.4rem;
     }
 
     .nav-col{
@@ -250,7 +261,7 @@
     }
 
     .pricing-plan{
-        width: 75%;
+        width: 85%;
         justify-self: center;
     }
 
