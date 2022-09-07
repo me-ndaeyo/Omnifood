@@ -25,9 +25,6 @@
         column-gap: 4.8rem;
         row-gap: 6.4rem;
     }
-    .heading-secondary{
-        font-size: 3.6em;
-    }
 
     .heading-tertiary{
         font-size: 2.4em;
@@ -169,6 +166,7 @@
 
     .heading-secondary{
         margin-bottom: 4.8rem;
+        font-size: 3.2rem;
     }
 
     .pricing-plan{
