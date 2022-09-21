@@ -113,7 +113,7 @@
         height: 100vh;
         width: 100%;
         backdrop-filter: blur(10px);
-        background-color: rgb(203, 241, 209, 0.5);
+        background-color: rgb(203, 241, 209, 0.75);
         transform: translateX(100%);
 
         display: flex;
