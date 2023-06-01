@@ -10,6 +10,11 @@
     .gallery{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .feature-section{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 4.8rem;
+    }
 }
 
 /*******************************/
@@ -87,11 +92,6 @@
 
     .meal-features{
         padding: 2.4rem;
-    }
-
-    .feature-section{
-        grid-template-columns: repeat(2, 1fr);
-        padding: 0 4.8rem;
     }
 
     .cta{
@@ -206,6 +206,10 @@
 /* BELOW 560PX * Phone view/ 
 /*******************************/
 @media (max-width: 36em){
+    html{
+        font-size: 37.5%;
+    }
+
     .grid{
         row-gap: 4.8rem;
     }
